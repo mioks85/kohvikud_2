@@ -4,12 +4,12 @@
 $kasutaja = "mihkel";
 $dbserver = "localhost";
 $andmebaas = "kohvikud";
-$pw = "parool";
+$pw = "1234!";
 
-$yhendus = mysqli_connect ($dbserver, $kasutaja, $pw, $andmebaas);
+$yhendus = mysqli_connect($dbserver, $kasutaja, $pw, $andmebaas);
 
 if (!$yhendus) {
-    die ("Sa jälle ebaõnnestusid!");
+    die ("Ei saa ühendust!");
 }
 
 ?>
